@@ -7,7 +7,7 @@ import Contact from "./components/Contact.tsx"
 import {BrowserRouter} from "react-router-dom"
 function App() {
     return(
-        <BrowserRouter basename="/Home">
+        <BrowserRouter>
             <div className="App">
                 <Nav/>
                 <Routes>
