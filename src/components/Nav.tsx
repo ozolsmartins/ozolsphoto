@@ -7,7 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import { Link } from 'react-router';
 
-const pages = ['Home', 'Gallery', 'Contact'];
+const pages = ['home', 'gallery', 'contact'];
 
 function Nav() {
     return (

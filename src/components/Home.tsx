@@ -10,7 +10,7 @@ const Home = () => {
                 <h3 style={{color: "white"}}>... and I like to take pictures</h3>
                 <Tooltip title="Gallery"><Button
                     type="submit"
-                    component={Link} to="/Gallery"
+                    component={Link} to="/gallery"
                     className="siteButton">
                     Check them out
                 </Button></Tooltip>

@@ -1,10 +1,12 @@
-import ImageComponent from "./ImageComponent.tsx";
+import Images from "./Image.tsx";
 
 const Gallery = () => {
-    const image1 = "./picture1.jpg"
     return (
-        <div className="home">
-            <ImageComponent src={image1}/>
+        <div>
+            <div className="homeText" style={{paddingTop:"100px"}}><h1>Some samples of my work</h1></div>
+            <div className="gallery">
+                <Images/>
+            </div>
         </div>
     )
 }
